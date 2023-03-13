@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* убирает все отступы в браузере */
+/* но используй сброс стилей css */
+
+
+
+.fa-sharp {
+    color: white;
+    margin-right: 70px;
+    transition: 500ms;
+}
+
+
+.fa-sharp:hover {
+    color: rgb(1, 1, 1);
+    transform: scale(1.5);
+}
+
+
+.main-nawi-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+
+}
+
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    color: white;
+
+
+}
+
+
+
+
+.navi-item {
+    margin-right: 47px;
+    transition: 500ms;
+}
+
+.navi-item:hover {
+    transform: scale(1.5);
+    color: black;
+}
+
+hr {
+    background-color: black;
+}
+
+header {
+    height: 800px;
+    background-image: url(./bgc.jpg);
+}
+
+.second-nawi-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.left-block{
+    margin-top: 200px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.right-block{
+    margin-left: 100px;
+    margin-top: 314px;
+    
+}
+
+.right-block-blue {
+    width: 255px;
+    height: 148px;
+    background-color: #2378FC;
+
+}
+
+.right-block-green {
+    width: 255px;
+    height: 148px;
+    background-color: #30BCC9;
+    margin-left: 30px;
+
+
+}
+
+h3 {
+    font-size: 21px;
+    color: white;
+    font-weight: 500;
+}
+
+.right-block {
+    display: flex;
+
+}
+
+.kalendar-margin {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 88px;
+    margin-bottom: 64px;
+
+}
